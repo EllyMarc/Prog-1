@@ -8,8 +8,8 @@ int main()
 
     while (contador < 15)
     {
-    srand(time(NULL));  // Inicializa o gerador com uma semente única
-    int fator1 = rand() % 10; //gerador
+    srand(time(NULL));
+    int fator1 = rand() % 10;
     int fator2 = rand() % 10;
 
         contador++;
